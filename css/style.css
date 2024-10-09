@@ -1,0 +1,53 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.gameover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 40vh;
+  left: 35%;
+  background-color: tomato;
+  width: 400px;
+  height: 200px;
+  animation: slide-in 0.2s ease-in-out;
+}
+
+.thisIsAnswer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 40vh;
+  left: 35%;
+  background-color: lightgreen;
+  width: 400px;
+  height: 200px;
+  animation: slide-in 0.2s ease-in-out;
+}
+
+.row-0,
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5 {
+  font-size: 25px;
+  font-weight: 900;
+}

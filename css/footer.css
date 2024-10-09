@@ -1,0 +1,43 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.key-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.key-block,
+.key-enter,
+.key-backspace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(177, 177, 177);
+  width: 50px;
+  height: 65px;
+  border-radius: 5px;
+}
+
+.key-enter {
+  width: 80px;
+  height: 65px;
+  font-size: 20px;
+}
+
+.key-backspace {
+  width: 80px;
+  height: 65px;
+}
+
+.key-backspace img {
+  width: 30px;
+  height: 30px;
+}
